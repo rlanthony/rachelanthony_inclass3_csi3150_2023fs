@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.counter-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgb(241, 240, 240);
+}
+
+.counter-buttons-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.counter-button {
+  width: 200px;
+  height: 60px;
+  border: 1.5px palevioletred solid;
+  background-color: pink;
+  font-size: 20px;
+}
+
+.counter-button:hover {
+  opacity: 70%;
+}
+
+.counter {
+  font-size: 60px;
+}
